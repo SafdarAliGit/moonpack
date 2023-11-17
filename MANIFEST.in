@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include moonpack *.css
+recursive-include moonpack *.csv
+recursive-include moonpack *.html
+recursive-include moonpack *.ico
+recursive-include moonpack *.js
+recursive-include moonpack *.json
+recursive-include moonpack *.md
+recursive-include moonpack *.png
+recursive-include moonpack *.py
+recursive-include moonpack *.svg
+recursive-include moonpack *.txt
+recursive-exclude moonpack *.pyc
